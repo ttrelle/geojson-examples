@@ -1,0 +1,13 @@
+{
+  "type": "Feature",
+  "properties": {
+    "name": "codecentric AG",
+    "address": "Hochstr. 11",
+    "marker-color": "#008800",
+    "marker-symbol": "commercial"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [7.0069, 51.1623]
+  }
+}
