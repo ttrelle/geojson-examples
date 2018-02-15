@@ -1,2 +1,2 @@
-# geojson-examples
-Example of the usage of GeoJSON data
+# GeoJSON Examples
+Examples of the usage of GeoJSON data
