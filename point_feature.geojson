@@ -2,7 +2,7 @@
   "type": "Feature",
   "properties": {
     "name": "codecentric AG",
-    "address": "Hochstr. 11"
+    "address": "Hochstr. 11",
     "marker-color": "#008800",
     "marker-symbol": "commercial"
   },
