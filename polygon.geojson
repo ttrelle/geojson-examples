@@ -20,9 +20,7 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Planetenweg"
-      },
-      "style": {
+        "name": "Planetenweg",
         "stroke": "#FF0000",
         "stroke-width": "4"
       },
