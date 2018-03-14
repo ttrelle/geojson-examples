@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  web:
+    image: nginx
+    volumes:
+     - ./docroot:/usr/share/nginx/html:ro
+    ports:
+     - "8080:80"

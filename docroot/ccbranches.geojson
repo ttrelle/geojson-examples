@@ -1,0 +1,397 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "codecentric HQ Solingen",
+        "address": "Hochstr. 11",
+        "marker-color": "#008800",
+        "marker-symbol": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0069,
+          51.1623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "codecentric Berlin",
+        "address": "c/o WeWork Sony Center – Kemperplatz 1 Building A",
+        "marker-color": "#008800",
+        "marker-symbol": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3721,
+          52.510945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "codecentric Dortmund",
+        "address": "Hoher Wall 15",
+        "marker-color": "#008800",
+        "marker-symbol": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.456743,
+          51.513381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "codecentric Frankfurt/Main",
+        "address": "Kreuznacher Straße 30",
+        "marker-color": "#008800",
+        "marker-symbol": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.64235,
+          50.116501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "codecentric Hamburg",
+        "address": "Große Elbstraße 14",
+        "marker-color": "#008800",
+        "marker-symbol": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.951628,
+          53.545499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "codecentric Karlsruhe",
+        "address": "Gartenstraße 69a",
+        "marker-color": "#008800",
+        "marker-symbol": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.384187,
+          49.004547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "codecentric München",
+        "address": "Elsenheimerstraße 55a",
+        "marker-color": "#008800",
+        "marker-symbol": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.523528,
+          48.137715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "codecentric Münster",
+        "address": "dock 14 / Am Mittelhafen 14",
+        "marker-color": "#008800",
+        "marker-symbol": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.640753,
+          51.950827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "codecentric Nürnberg",
+        "address": "Josephsplatz 8",
+        "marker-color": "#008800",
+        "marker-symbol": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.073397,
+          49.451993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "codecentric Stuttgart",
+        "address": "Heßbrühlstr. 7",
+        "marker-color": "#008800",
+        "marker-symbol": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.111053,
+          48.724263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "codecentric Doboj",
+        "address": "Svetog Save bb",
+        "marker-color": "#008800",
+        "marker-symbol": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.085593,
+          44.732533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "codecentric Banja Luka",
+        "address": "Trg Srpskih junaka br. 4",
+        "marker-color": "#008800",
+        "marker-symbol": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.189918,
+          44.772472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "codecentric Novi Sad",
+        "address": "Bulevar oslobodjenja 127/XIII",
+        "marker-color": "#008800",
+        "marker-symbol": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.842334,
+          45.243883
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "codecentric Breda",
+        "address": "Reduitlaan 33",
+        "marker-color": "#008800",
+        "marker-symbol": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.762866,
+          51.590852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "codecentric Amsterdam",
+        "address": "Johan Huizingalaan 763a",
+        "marker-color": "#008800",
+        "marker-symbol": "commercial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.829115,
+          52.343349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#00FFFF",
+        "stroke-width": "4"
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              7.0069,
+              51.1623
+            ],
+            [
+              13.3721,
+              52.510945
+            ]
+          ],
+          [
+            [
+              7.0069,
+              51.1623
+            ],
+            [
+              7.456743,
+              51.513381
+            ]
+          ],
+          [
+            [
+              7.0069,
+              51.1623
+            ],
+            [
+              8.64235,
+              50.116501
+            ]
+          ],
+          [
+            [
+              7.0069,
+              51.1623
+            ],
+            [
+              9.951628,
+              53.545499
+            ]
+          ],
+          [
+            [
+              7.0069,
+              51.1623
+            ],
+            [
+              8.384187,
+              49.004547
+            ]
+          ],
+          [
+            [
+              7.0069,
+              51.1623
+            ],
+            [
+              11.523528,
+              48.137715
+            ]
+          ],
+          [
+            [
+              7.0069,
+              51.1623
+            ],
+            [
+              7.640753,
+              51.950827
+            ]
+          ],
+          [
+            [
+              7.0069,
+              51.1623
+            ],
+            [
+              11.073397,
+              49.451993
+            ]
+          ],
+          [
+            [
+              7.0069,
+              51.1623
+            ],
+            [
+              9.111053,
+              48.724263
+            ]
+          ],
+          [
+            [
+              7.0069,
+              51.1623
+            ],
+            [
+              18.085593,
+              44.732533
+            ]
+          ],
+          [
+            [
+              7.0069,
+              51.1623
+            ],
+            [
+              17.189918,
+              44.772472
+            ]
+          ],
+          [
+            [
+              7.0069,
+              51.1623
+            ],
+            [
+              19.842334,
+              45.243883
+            ]
+          ],
+          [
+            [
+              7.0069,
+              51.1623
+            ],
+            [
+              4.762866,
+              51.590852
+            ]
+          ],
+          [
+            [
+              7.0069,
+              51.1623
+            ],
+            [
+              4.829115,
+              52.343349
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Map APIs and GeoJSON</title>
+	</head>
+	<body>
+	<h1>Google Maps API</h1>
+	<div id="map" style="width: 600px; height: 400px;"></div>
+
+    <script>
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 49.451993, lng: 11.073397}
+          , zoom: 5
+        });
+
+        // Styling
+        map.data.setStyle({
+        	icon: "cc-logo-black.png",
+          strokeColor: "#808080",
+        	strokeWeight: 2,
+        	clickable: true
+        	});
+
+        // Load GeoJSON
+        map.data.loadGeoJson('ccbranches.geojson');
+
+        // Click listener
+        map.data.addListener('click', function(event) {
+            var popup = new google.maps.InfoWindow({
+                content:
+                	"<b>" + event.feature.getProperty("name") + "</b><br/>"
+                	+ event.feature.getProperty("address"),
+                position: event.latLng
+              });
+            popup.open(map);
+        });
+
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=[API_KEY]&callback=initMap">
+    </script>
+
+	</body>
+</html>
