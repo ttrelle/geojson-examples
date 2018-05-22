@@ -13,48 +13,48 @@
 	<h1>Leaflet and GeoJSON</h1>
 	<div id="map" style="width: 600px; height: 400px;"></div>
 	<script>
-		window.onload = function() {
-			// set up the map
-			var map = new L.Map('map');
-			var osm = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-				minZoom: 0,
-				maxZoom: 20,
-				attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
-			});
+	window.onload = function() {
+		// set up the map
+		var map = new L.Map('map');
+		var osm = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			minZoom: 0,
+			maxZoom: 20,
+			attribution: 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
+		});
 
-			// define view
-			map.setView(new L.LatLng(49.451993, 11.073397), 5);
-			map.addLayer(osm);
+		// define view
+		map.setView(new L.LatLng(49.451993, 11.073397), 5);
+		map.addLayer(osm);
 
-			// CC Icon
-			var ccIcon = L.icon({
-			  iconUrl: 'cc-logo-black.png',
-			  iconSize: [35, 35],
-			  iconAnchor: [17, 17],
-			  popupAnchor: [0, -28]
-			});
+		// CC Icon
+		var ccIcon = L.icon({
+			iconUrl: 'cc-logo-black.png',
+			iconSize: [35, 35],
+			iconAnchor: [17, 17],
+			popupAnchor: [0, -28]
+		});
 
-			var xhr = new XMLHttpRequest();
-			xhr.open('GET', 'ccbranches.geojson');
-			xhr.setRequestHeader('Content-Type', 'application/json');
-			xhr.onload = function() {
-    		if (xhr.status === 200) {
-        	L.geoJSON(JSON.parse(xhr.responseText), {
-						// Marker Icon
-						pointToLayer: function (feature, latlng) {
-		            return L.marker(latlng, {icon: ccIcon});
-		    		},
-						// Style
-						style: function(feature) {
-							return {color: '#808080', width:2};
-						},
-						// Popup
-						onEachFeature: function (feature, layer) {
-							layer.bindPopup("<b>" + feature.properties.name + '</b><br />'
-								+ feature.properties.address);
-						}
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', 'ccbranches.geojson');
+		xhr.setRequestHeader('Content-Type', 'application/json');
+		xhr.onload = function() {
+			if (xhr.status === 200) {
+				L.geoJSON(JSON.parse(xhr.responseText), {
+					// Marker Icon
+					pointToLayer: function (feature, latlng) {
+					  	return L.marker(latlng, {icon: ccIcon});
+					},
+					// Style
+					style: function(feature) {
+						return {color: '#808080', width:2};
+					},
+					// Popup
+					onEachFeature: function (feature, layer) {
+						layer.bindPopup("<b>" + feature.properties.name + '</b><br />'
+							+ feature.properties.address);
+					}
 				}).addTo(map);
-    	}
+			}
 		};
 		xhr.send();
 	}
